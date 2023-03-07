@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    background-color: #26395f;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    height: 250px;
+    margin: 120px auto;
+    padding: 6px 15px 110px 15px ;
+    background: #ffffff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px rgba(10, 10, 10, 0.75);
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    color: hsla(0, 0%, 0%, 0.914);
+    border: #2C3333;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    margin: 50px 0 10px;
+    color: hsla(0, 0%, 0%, 0.914);
+}
+
+input {
+    width: 280px;
+    padding: 10px;
+    background: #f5f5f5;
+    margin: 5px auto 15px auto;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+input:hover {
+    background-color: #ffffff;
+}
+
+button {
+    padding: 9px;
+    margin-right: 8px;
+    font-size: 15px;
+    background-color: #79d742;
+    color: rgb(0, 0, 0);
+    border: 100px rgb(154, 167, 154);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #009d05;
+}
+#clear{
+    padding: 9px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #090909;
+    color: rgb(251, 251, 251);
+    border: 100px rgb(154, 167, 154);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#clear:hover {
+    color: #ffffff;
+    background-color: #ff2a00;
+}
+#error-message {
+    color: rgb(255, 0, 0);
+    border: #000000;
+    font-weight: bold;
+    font-size:large;
+}
